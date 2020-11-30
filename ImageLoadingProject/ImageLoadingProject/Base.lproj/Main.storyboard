@@ -81,10 +81,10 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="93.75"/>
         </scene>
-        <!--View Controller-->
+        <!--Large Image Controller-->
         <scene sceneID="Wr0-Tm-aVR">
             <objects>
-                <viewController id="eTA-u5-l1M" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LargeImageController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eTA-u5-l1M" customClass="LargeImageController" customModule="ImageLoadingProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t6d-wO-gnr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,7 +94,7 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="Syt-OZ-dRL"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="c0r-5w-qwb"/>
                             </scrollView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="d0h-ra-sE0">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="d0h-ra-sE0">
                                 <rect key="frame" x="132" y="446" width="150" height="4"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="4" id="OPL-QJ-wh0"/>
@@ -113,6 +113,10 @@
                             <constraint firstItem="d0h-ra-sE0" firstAttribute="centerY" secondItem="t6d-wO-gnr" secondAttribute="centerY" id="zJF-rT-SE7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="progressView" destination="d0h-ra-sE0" id="fae-iu-uz5"/>
+                        <outlet property="scrollView" destination="8df-gI-dNw" id="xub-OL-wV2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UCO-s5-MPl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -15,6 +15,7 @@
 		AEF3A31B2562D706007CCD92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF3A3192562D706007CCD92 /* LaunchScreen.storyboard */; };
 		AEF3A3242562DBB3007CCD92 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF3A3232562DBB3007CCD92 /* ImageCell.swift */; };
 		AEF3A3282562E4D4007CCD92 /* URLDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF3A3272562E4D4007CCD92 /* URLDetailsViewController.swift */; };
+		DE82672B2573F0CE00C475C4 /* LargeImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82672A2573F0CE00C475C4 /* LargeImageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AEF3A31C2562D706007CCD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEF3A3232562DBB3007CCD92 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		AEF3A3272562E4D4007CCD92 /* URLDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLDetailsViewController.swift; sourceTree = "<group>"; };
+		DE82672A2573F0CE00C475C4 /* LargeImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeImageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				AEF3A3102562D705007CCD92 /* SceneDelegate.swift */,
 				AEF3A3122562D705007CCD92 /* ViewController.swift */,
 				AEF3A3232562DBB3007CCD92 /* ImageCell.swift */,
+				DE82672A2573F0CE00C475C4 /* LargeImageController.swift */,
 				AEF3A3272562E4D4007CCD92 /* URLDetailsViewController.swift */,
 				AEF3A3142562D705007CCD92 /* Main.storyboard */,
 				AEF3A3172562D706007CCD92 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEF3A3132562D705007CCD92 /* ViewController.swift in Sources */,
+				DE82672B2573F0CE00C475C4 /* LargeImageController.swift in Sources */,
 				AEF3A3242562DBB3007CCD92 /* ImageCell.swift in Sources */,
 				AEF3A30F2562D705007CCD92 /* AppDelegate.swift in Sources */,
 				AEF3A3112562D705007CCD92 /* SceneDelegate.swift in Sources */,
